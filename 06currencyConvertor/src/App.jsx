@@ -21,6 +21,7 @@ function App() {
     setAmount(convertedAmount)
   }
   
+  
   const convert = () => {
     setConvertedAmount(amount * currencyInfo[to])
   }
@@ -37,8 +38,7 @@ function App() {
                 <form
                     onSubmit={(e) => {
                         e.preventDefault();
-                        convert()
-                       
+                        convert()  
                     }}
                 >
                     <div className="w-full mb-1">
@@ -58,7 +58,7 @@ function App() {
                             onClick={swap}
                         >
                             swap
-                        </button>
+                    </button>
                     </div>
                     <div className="w-full mt-1 mb-4">
                         <InputBox
