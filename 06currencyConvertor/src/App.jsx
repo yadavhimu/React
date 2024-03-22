@@ -40,8 +40,7 @@ function App() {
                         e.preventDefault();
                         convert()  
                     }}
-                >
-                    
+                > 
                     <div className="w-full mb-1">
                         <InputBox
                             label="From"
